@@ -74,6 +74,7 @@ Add: BFS_jimin (Add: 알고리즘 분류 + 이름)
   <br>
 
 ## 스터디 내용
+
 | 주차 | 연습문제 | 문제 | 관련 알고리즘 |
 |---|---|---|---|
-|01|BOJ 34028, BOJ 2225, BOJ 1584|.|Implementation, DP, Graph|
+|01|[BOJ 34028](https://www.acmicpc.net/problem/34028), [BOJ 2225](https://www.acmicpc.net/problem/2225), [BOJ 1584](https://www.acmicpc.net/problem/1584) |.|Implementation, DP, Graph|
