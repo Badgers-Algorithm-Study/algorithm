@@ -77,5 +77,5 @@ Add: BFS_jimin (Add: 알고리즘 분류 + 이름)
 
 | 주차 | 연습문제 | 문제 | 관련 알고리즘 |
 |---|---|---|---|
-|01|[BOJ 34028](https://www.acmicpc.net/problem/34028), [BOJ 2225](https://www.acmicpc.net/problem/2225), [BOJ 1584](https://www.acmicpc.net/problem/1584) |[BOJ_15903_카드합체놀이](https://www.acmicpc.net/problem/15903)|Implementation, DP, Graph|
-|02|[BOJ_28075_스파이] (https://www.acmicpc.net/problem/28075), [BOJ_20529_가장 가까운 세 사람의 심리적 거리] (https://www.acmicpc.net/problem/20529)|.|Implementation, 브루트포스| 
+|01|[BOJ 34028](https://www.acmicpc.net/problem/34028), [BOJ 2225](https://www.acmicpc.net/problem/2225), [BOJ 1584](https://www.acmicpc.net/problem/1584) |[카드합체놀이](https://www.acmicpc.net/problem/15903)|Implementation, DP, Graph|
+|02|[스파이](https://www.acmicpc.net/problem/28075), [가장 가까운 세 사람의 심리적 거리](https://www.acmicpc.net/problem/20529)|.|Implementation, 브루트포스| 
