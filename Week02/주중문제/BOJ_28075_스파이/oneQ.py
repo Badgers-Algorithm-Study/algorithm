@@ -8,7 +8,7 @@ SurveilValue = list(map(int, input().split()))
 table = [IntelValue, SurveilValue] # 입력된 기여도 가치를 테이블로 만들기
 target = max(IntelValue + SurveilValue) # 하루에 얻을 수 있는 최대 기여도는?
 
-def dfs(duty, prev_place, total):
+def calculate(duty, prev_place, total):
     if duty >= Day: # 모든 근무일이 끝나고
         if total >= Rate: # 목표 기여도를 달성 했으면
             return 1
@@ -28,8 +28,8 @@ def dfs(duty, prev_place, total):
             gain = table[task][place]
             if place == prev_place: # 동일 지역 임무 시 기여도 반토막
                 gain //= 2
-            cases += dfs(duty + 1, place, min(Rate, total + gain))
+            cases += calculate(duty + 1, place, min(Rate, total + gain))
     
     return cases
 
-print(dfs(0, -1, 0))
+print(calculate(0, -1, 0))
