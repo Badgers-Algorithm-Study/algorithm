@@ -11,6 +11,8 @@ for _ in range(T):
         print(0)
         sys.stdin.readline() 
         continue
+
+    
     per = list(sys.stdin.readline().split())
     dif = [[0 for _ in range(N)] for _ in range(N)]
     q = []
