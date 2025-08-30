@@ -10,7 +10,7 @@ for i in range(m):
     sumNum = card[0] + card[1]
     card[0] = sumNum
     card[1] = sumNum
- 
+    
 answer = sum(card)
 
 print(answer)
